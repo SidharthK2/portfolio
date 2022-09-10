@@ -6,6 +6,6 @@
 
 @layer base {
   body {
-    @apply bg-lightBlack;
+    @apply bg-gray-600;
   }
 }

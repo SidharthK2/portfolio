@@ -9,7 +9,7 @@ export default function Home() {
         <meta name="description" content="personal blockchain portfolio" />
         <link rel="icon" href="/eth.svg" />
       </Head>
-      <nav className="flex flex-col gap-4 bg-gray-600 w-20 h-screen fixed">
+      <nav className="flex flex-col gap-4 bg-gray-600 w-20 h-screen p-1 fixed">
         <div className="w-14 h-14 rounded-full bg-gray-400 flex justify-center items-center">
           Home
         </div>

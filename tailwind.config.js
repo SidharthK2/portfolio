@@ -12,9 +12,11 @@ module.exports = {
       colors: {
         neonBlue: "#08D9D6",
         darkGray: "#36393f",
-        lightBlack: "#222831",
+        lightBlack: "#30333b",
+        lighterBlack: "#393c46",
         lightRed: "#FF2E63",
         offWhite: "#EAEAEA",
+        sidebarBlack: "#202225",
       },
     },
   },

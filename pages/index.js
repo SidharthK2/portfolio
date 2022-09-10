@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <div className="container flex">
       <Head>
-        <title>Sidharth's Portfolio</title>
+        <title>Sidharth&apos;s Portfolio</title>
         <meta name="description" content="personal blockchain portfolio" />
         <link rel="icon" href="/eth.svg" />
       </Head>

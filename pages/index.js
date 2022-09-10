@@ -16,7 +16,7 @@ export default function Home() {
         <div className="">About</div>
         <div className="">Stuff</div>
       </nav>
-      <div className="pages ml-20 h-screen">
+      <div className="pages ml-20 h-screen w-screen">
         <div className="page1 flex w-screen h-screen bg-darkGray p-2 text-offWhite">
           <div className="page1body m-1">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe,

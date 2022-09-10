@@ -11,6 +11,7 @@ export default function Home() {
       </Head>
       <div className="container flex m-2 p-2">
         <div className="text-white">Home</div>
+        <div className=" text-white">About</div>
       </div>
     </div>
   );

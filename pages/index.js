@@ -4,7 +4,7 @@ import SideBar from "../components/Sidebar";
 import Spinner from "../components/Spinner";
 import Pages from "../components/Pages";
 import HomePage from "./HomePage";
-import AboutPage from "./AboutPage";
+import AboutPage from "./About";
 
 export default function Home() {
   return (

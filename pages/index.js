@@ -3,6 +3,7 @@ import Image from "next/image";
 import SideBar from "../components/Sidebar";
 import Spinner from "../components/Spinner";
 import Pages from "../components/Pages";
+import Page from "./Page";
 
 export default function Home() {
   return (
@@ -13,6 +14,9 @@ export default function Home() {
         <link rel="icon" href="/eth.svg" />
       </Head>
       <SideBar />
+      <Pages>
+        <Page />
+      </Pages>
     </div>
   );
 }

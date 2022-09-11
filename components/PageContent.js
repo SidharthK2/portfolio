@@ -1,7 +1,3 @@
 import React from "react";
 
-export default function PageContent() {
-  return (
-    
-  );
-}
+export default function PageContent() {}

@@ -3,7 +3,8 @@ import Image from "next/image";
 import SideBar from "../components/Sidebar";
 import Spinner from "../components/Spinner";
 import Pages from "../components/Pages";
-import Page from "./Home";
+import HomePage from "./HomePage";
+import AboutPage from "./AboutPage";
 
 export default function Home() {
   return (
@@ -15,7 +16,8 @@ export default function Home() {
       </Head>
       <SideBar />
       <Pages>
-        <Page />
+        <HomePage />
+        <AboutPage />
       </Pages>
     </div>
   );

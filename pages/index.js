@@ -3,7 +3,7 @@ import Image from "next/image";
 import SideBar from "../components/Sidebar";
 import Spinner from "../components/Spinner";
 import Pages from "../components/Pages";
-import Page from "./Page";
+import Page from "./Home";
 
 export default function Home() {
   return (

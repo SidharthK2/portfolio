@@ -5,6 +5,8 @@ import Spinner from "../components/Spinner";
 import Pages from "../components/Pages";
 import HomePage from "./HomePage";
 import AboutPage from "./About";
+import ProjectsPage from "./Projects";
+import ContactPage from "./Contact";
 
 export default function Home() {
   return (
@@ -18,6 +20,8 @@ export default function Home() {
       <Pages>
         <HomePage />
         <AboutPage />
+        <ProjectsPage />
+        <ContactPage />
       </Pages>
     </div>
   );

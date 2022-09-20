@@ -14,7 +14,7 @@ export default function Home() {
       <Head>
         <title>Sidharth&apos;s Portfolio</title>
         <meta name="description" content="personal blockchain portfolio" />
-        <link rel="icon" href="/eth.svg" />
+        <link rel="icon" href="/bolt.svg" />
       </Head>
       <SideBar />
       <Pages>

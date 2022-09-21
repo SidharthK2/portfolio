@@ -5,7 +5,7 @@ export default function HomePage() {
     <div className="Home text-green-500 flex flex-col w-screen h-screen bg-lightBlack p-2 ">
       <div className="title text-2xl font-bold text-center">Home</div>
       <div className="Homebody m-1 text-center">
-        <div className="text-lg">Hey I am Si</div>
+        <div className="text-lg">Hey I am Sid</div>
       </div>
     </div>
   );

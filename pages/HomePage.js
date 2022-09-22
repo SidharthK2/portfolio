@@ -8,6 +8,9 @@ export default function HomePage() {
         <div className="text-lg h-fit w-fit p-2 bg-[#08D9D6] text-black font-semibold">
           Hey I am Sid
         </div>
+        <a href="https://colorhunt.co/palette/08d9d6252a34ff2e63eaeaea">
+          this color scheme slaps
+        </a>
       </div>
     </div>
   );

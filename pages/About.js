@@ -10,6 +10,9 @@ export default function AboutPage() {
         <div className="text-lg">
           <a className="underline" href="https://www.alexdanielson.com/">
             Portfolio inspiration
+            <a href="https://www.theodinproject.com/lessons/node-path-getting-hired-building-your-personal-website">
+              Cool Portfolios
+            </a>
           </a>
         </div>
       </div>

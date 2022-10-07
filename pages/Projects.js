@@ -8,6 +8,9 @@ export default function ProjectsPage() {
       <div className="title text-2xl font-bold text-center">Projects</div>
       <div className="Aboutbody m-1 text-center">
         <div className="text-lg">tiles of projects</div>
+        <div>
+          <a href="https://github.com/SidharthK2">Github</a>
+        </div>
       </div>
     </div>
   );

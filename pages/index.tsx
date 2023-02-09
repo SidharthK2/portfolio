@@ -19,11 +19,11 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/bolt.svg" />
       </Head>
-      <div className="flex">
+      <div id="Home" className="flex">
         <Sidebar />
         <main className="flex-grow">
           <section className="px-10 min-h-screen">
-            <nav className="py-10 mb-12 flex flex-col gap-4 items-center sm:flex-row sm:justify-between">
+            <nav className="py-10 mb-12 flex flex-col gap-6 items-center sm:flex-row sm:justify-between">
               <h1 className="text-xl text-green-400">0x_Snake#8049</h1>
               <ul className="flex items-center">
                 <li>
@@ -36,7 +36,7 @@ export default function Home() {
               </ul>
             </nav>
             <div className="text-offWhite text-center p-10 flex flex-col items-center">
-              <h2 className="text-5xl py-2  font-medium">Sidharth Kapoor</h2>
+              <h2 className="text-5xl py-2 font-medium">Sidharth Kapoor</h2>
               <h3 className="text-2xl py-2 text-green-400">
                 Fullstack Web3 Developer
               </h3>
@@ -63,7 +63,7 @@ export default function Home() {
             </div>
           </section>
 
-          <section className="min-h-screen">
+          <section id="About" className="px-4 min-h-screen">
             <div className="flex gap-4 justify-evenly flex-wrap">
               <Card
                 src={"/front-end.svg"}
@@ -102,6 +102,12 @@ export default function Home() {
                 ]}
               />
             </div>
+          </section>
+          <section id="Projects" className="px-4 min-h-screen">
+            <div className="text-white">Projects</div>
+          </section>
+          <section id="Contact" className="px-4 min-h-screen">
+            <div className="text-white">Contact form</div>
           </section>
           <Footer />
         </main>

@@ -10,6 +10,7 @@
   }
   body {
     @apply bg-sidebarBlack;
+    @apply w-screen;
   }
 }
 

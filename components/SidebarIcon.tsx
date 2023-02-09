@@ -8,7 +8,7 @@ type SbarIconProps = {
 
 const SidebarIcon = ({ icon, text }: SbarIconProps) => {
   return (
-    <Link href={text === "Home" ? "/" : `#${text}`}>
+    <Link href={`#${text}`} scroll={false}>
       <div className="sidebar-icon group">
         <>
           {icon}

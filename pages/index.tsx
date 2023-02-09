@@ -23,7 +23,7 @@ export default function Home() {
         <Sidebar />
         <main className="flex-grow">
           <section className="px-10 min-h-screen">
-            <nav className="py-10 mb-12 flex justify-between">
+            <nav className="py-10 mb-12 flex flex-col gap-4 items-center sm:flex-row sm:justify-between">
               <h1 className="text-xl text-green-400">0x_Snake#8049</h1>
               <ul className="flex items-center">
                 <li>
@@ -64,7 +64,7 @@ export default function Home() {
           </section>
 
           <section className="min-h-screen">
-            <div className="flex gap-4 justify-evenly">
+            <div className="flex gap-4 justify-evenly flex-wrap">
               <Card
                 src={"/front-end.svg"}
                 title={"Frontend"}

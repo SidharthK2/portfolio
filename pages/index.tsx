@@ -6,6 +6,7 @@ import { BsFillMoonStarsFill } from "react-icons/bs";
 import { AiFillTwitterCircle, AiFillGithub } from "react-icons/ai";
 import { FaBlog } from "react-icons/fa";
 import Card from "@/components/Card";
+import { Footer } from "@/components/Footer";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -13,33 +14,33 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Sidharth's Portfolio</title>
+        <title>Sidharth&apos;s Portfolio</title>
         <meta name="description" content="Personal portfolio website" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/bolt.svg" />
       </Head>
       <div className="flex">
         <Sidebar />
-        <main className="px-10 flex-grow">
-          <section className="min-h-screen">
+        <main className="flex-grow">
+          <section className="px-10 min-h-screen">
             <nav className="py-10 mb-12 flex justify-between">
-              <h1 className="text-xl text-green-400">CodingSid</h1>
+              <h1 className="text-xl text-green-400">0x_Snake#8049</h1>
               <ul className="flex items-center">
                 <li>
                   <a
-                    className="bg-green-500 active:bg-green-700 hover:bg-green-600 text-offWhite px-4 py-2 rounded-md ml-6"
+                    className="bg-green-500 active:bg-green-700 hover:bg-green-600 text-gray-50 px-4 py-2 rounded-md ml-6"
                     href="#">
                     Resume
                   </a>
                 </li>
               </ul>
             </nav>
-            <div className="text-offWhite text-center p-10">
+            <div className="text-offWhite text-center p-10 flex flex-col items-center">
               <h2 className="text-5xl py-2  font-medium">Sidharth Kapoor</h2>
               <h3 className="text-2xl py-2 text-green-400">
                 Fullstack Web3 Developer
               </h3>
-              <p className="py-5 leading-8 text-gray-300">
+              <p className=" max-w-2xl py-5 leading-8 text-gray-300">
                 Web3 developer with a passion for decentralized technology and
                 its potential to bring about a fairer, more equitable world. I
                 am driven to build and contribute to the web3 ecosystem through
@@ -102,6 +103,7 @@ export default function Home() {
               />
             </div>
           </section>
+          <Footer />
         </main>
       </div>
     </>

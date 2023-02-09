@@ -10,19 +10,21 @@ type CardProps = {
 const Card = ({ src, title, list }: CardProps) => {
   const listEl = (li: string) => {
     return (
-      <li className="text-gray-300" key={li}>
+      <li className="p-2" key={li}>
         {li}
       </li>
     );
   };
 
   return (
-    <div className="bg-lighterBlack min-w-fit max-w-md max-h-fit text-center shadow-lg p-10 rounded-xl my-10 flex flex-col items-center">
+    <div className="group hover:outline hover:outline-green-500 bg-lighterBlack min-w-fit max-w-md max-h-fit text-center shadow-lg p-10 rounded-xl my-10 flex flex-col items-center">
       <Image src={src} width={100} height={100} alt={"image"} />
-      <h3 className="text-lg text-green-500 font-medium pt-8 pb-2  ">
+      <h3 className="group-hover:text-gray-300 text-lg text-green-500 font-medium pt-8 pb-2  ">
         {title}
       </h3>
-      <ul>{list.map(listEl)}</ul>
+      <ul className="text-gray-300 group-hover:text-green-500 flex flex-col justify items-center">
+        {list.map(listEl)}
+      </ul>
     </div>
   );
 };

@@ -5,7 +5,7 @@ import { BsFillPersonFill, BsCodeSlash } from "react-icons/bs";
 
 export const Sidebar = () => {
   return (
-    <nav className="flex flex-col bg-lightBlack gap-2 text-offWhite w-16 top-0 left-0 h-screen sticky">
+    <nav className="p-1 flex flex-col bg-lightBlack gap-2 text-offWhite w-16 top-0 left-0 h-screen sticky">
       <SidebarIcon icon={<HiHome size={26} />} text={"Home"} />
       <SidebarIcon icon={<BsFillPersonFill size={26} />} text={"About"} />
 

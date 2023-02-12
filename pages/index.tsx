@@ -29,7 +29,8 @@ export default function Home() {
                 <li>
                   <a
                     className="bg-green-500 active:bg-green-700 hover:bg-green-600 text-gray-50 px-4 py-2 rounded-md ml-6"
-                    href="#">
+                    href="/resume.pdf"
+                    download="Sidharth's Resume">
                     Resume
                   </a>
                 </li>

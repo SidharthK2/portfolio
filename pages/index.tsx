@@ -1,12 +1,14 @@
 import Head from "next/head";
 import Image from "next/image";
 import { Inter } from "@next/font/google";
-import { Sidebar } from "@/components/Sidebar";
 import { BsFillMoonStarsFill } from "react-icons/bs";
 import { AiFillTwitterCircle, AiFillGithub } from "react-icons/ai";
 import { FaBlog } from "react-icons/fa";
+import { Sidebar } from "@/components/Sidebar";
 import Card from "@/components/Card";
 import { Footer } from "@/components/Footer";
+import ProjectCard from "@/components/ProjectCard";
+import Contact from "@/components/Contact";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -104,11 +106,38 @@ export default function Home() {
               />
             </div>
           </section>
-          <section id="Projects" className="px-4 min-h-screen">
-            <div className="text-white">Projects</div>
+          <section
+            id="Projects"
+            className="text-white px-4 min-h-screen flex-col space-y-8">
+            <p className="text-center text-3xl pb-8 font-semibold text-green-500">
+              Projects
+            </p>
+            <div className="grid grid-cols-2 gap-4 place-items-center">
+              <ProjectCard
+                image="/../public/nft-screenshot1.png"
+                title="DALL-E NFTs"
+                demo="https://dalle-nfts.vercel.app/"
+                deployed={true}
+                desc="This app allows anyone with a crypto wallet to generate custom NFT based on text prompts and mint them on Ethereum Mainnet or Goerli testnet."
+                repo="https://github.com/SidharthK2/ai-nft-generator#dall-e-nfts"
+              />
+              <ProjectCard
+                image="/../public/deslack-screenshot.png"
+                title="DeSlack"
+                demo="https://de-slack.vercel.app/"
+                deployed={true}
+                desc="A decentralized, permissionless decentralized slack-like messaging platform, with audio and video conferencing using huddle01 SDK."
+                repo="https://github.com/SidharthK2/de-slack"
+              />
+            </div>
           </section>
-          <section id="Contact" className="px-4 min-h-screen">
-            <div className="text-white">Contact form</div>
+          <section id="Contact" className="px-4 min-h-screen flex-col">
+            <div>
+              <p className="text-center text-3xl pb-8 font-semibold text-green-500">
+                Contact
+              </p>
+              <Contact />
+            </div>
           </section>
           <Footer />
         </main>

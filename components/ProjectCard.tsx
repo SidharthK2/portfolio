@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 import { AiFillGithub } from "react-icons/ai";
 import { FiExternalLink } from "react-icons/fi";
 
@@ -35,12 +36,16 @@ const ProjectCard = ({
           )}
         </h2>
         <p>{desc}</p>
-        <div className="card-actions justify-end">
+        <div className="card-actions pt-4 flex justify-center">
           <div className="badge">
-            <AiFillGithub className="text-3xl" />
+            <a href={repo}>
+              <AiFillGithub className="text-3xl" />
+            </a>
           </div>
           <div className="badge">
-            <FiExternalLink className="text-3xl" />
+            <a href={demo}>
+              <FiExternalLink className="text-3xl" />
+            </a>
           </div>
         </div>
       </div>

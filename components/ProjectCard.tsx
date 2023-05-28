@@ -1,6 +1,4 @@
 import React from "react";
-import Image from "next/image";
-import Link from "next/link";
 import { AiFillGithub } from "react-icons/ai";
 import { FiExternalLink } from "react-icons/fi";
 
@@ -24,7 +22,7 @@ const ProjectCard = ({
   return (
     <div className="card w-96 bg-lighterBlack shadow-xl">
       <figure>
-        <Image src={image} alt={title} width={400} height={400} />
+        <img src={image} alt={title} width={400} height={400} />
       </figure>
       <div className="card-body">
         <h2 className="card-title">

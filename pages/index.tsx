@@ -114,7 +114,7 @@ export default function Home() {
             </p>
             <div className="grid grid-cols-2 gap-4 place-items-center">
               <ProjectCard
-                image="/../public/nft-screenshot1.png"
+                image="/nft-screenshot1.png"
                 title="DALL-E NFTs"
                 demo="https://dalle-nfts.vercel.app/"
                 deployed={true}
@@ -122,7 +122,7 @@ export default function Home() {
                 repo="https://github.com/SidharthK2/ai-nft-generator#dall-e-nfts"
               />
               <ProjectCard
-                image="/../public/deslack-screenshot.png"
+                image="/deslack-screenshot.png"
                 title="DeSlack"
                 demo="https://de-slack.vercel.app/"
                 deployed={true}

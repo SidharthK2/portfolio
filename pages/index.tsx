@@ -112,7 +112,7 @@ export default function Home() {
             <p className="text-center text-3xl pb-8 font-semibold text-green-500">
               Projects
             </p>
-            <div className="grid grid-cols-2 gap-4 place-items-center">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4 place-items-center m-2">
               <ProjectCard
                 image="/nft-screenshot1.png"
                 title="DALL-E NFTs"

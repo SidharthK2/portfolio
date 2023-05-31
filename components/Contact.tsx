@@ -12,7 +12,7 @@ const Contact = () => {
               First Name
             </label>
             <input
-              className="appearance-none text-black block w-full bg-gray-200  border border-red-500 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white"
+              className="appearance-none text-black block w-full bg-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white"
               id="grid-first-name"
               type="text"
               placeholder="Jane"
@@ -61,7 +61,7 @@ const Contact = () => {
         <div className="md:flex md:items-center">
           <div className="md:w-1/3">
             <button
-              className="shadow bg-teal-400 hover:bg-teal-400 focus:shadow-outline focus:outline-none text-gray-600 font-bold py-2 px-4 rounded"
+              className="shadow bg-green-500 hover:bg-green-400 focus:shadow-outline focus:outline-none text-gray-600 font-bold py-2 px-4 rounded"
               type="button">
               Send
             </button>

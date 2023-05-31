@@ -20,7 +20,7 @@ const ProjectCard = ({
   demo,
 }: CardProps) => {
   return (
-    <div className="card w-96 bg-lighterBlack shadow-xl">
+    <div className="card w-80 bg-lighterBlack shadow-xl">
       <figure>
         <img src={image} alt={title} width={400} height={400} />
       </figure>

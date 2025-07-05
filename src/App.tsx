@@ -61,7 +61,7 @@ const Portfolio = () => {
 						Sidharth
 					</h1>
 					<p className="text-xl text-zinc-300 leading-relaxed mb-12 font-light">
-						I build autonomous AI agents for DeFi protocols
+						Buolding at the intersection of web3 and AI
 					</p>
 				</header>
 
@@ -111,8 +111,8 @@ const Portfolio = () => {
 								</span>
 							</div>
 							<p className="text-zinc-400 leading-relaxed font-light">
-								Technical lead for blockchain indexer backend securing $1M+ TVL.
-								Built autonomous on-chain AI agents integrating with major DeFi
+								Built blockchain indexer backend securing $1M+ TVL. Built
+								autonomous on-chain AI agents integrating with major DeFi
 								protocols like Morpho and Fraxswap.
 							</p>
 						</div>

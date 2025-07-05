@@ -3,7 +3,7 @@ import { Mail, Github } from "lucide-react";
 const Portfolio = () => {
 	const proudOf = [
 		"Being a Web3 engineer",
-		"Built systems securing $1M+ TVL at IQ AI",
+		"Built DeFAI systems securing $1M+ TVL at IQ AI",
 		"Won Prize pool at ETH Global Paris",
 		"Can code smart contracts, backend APIs, and frontend (not at the same time)",
 	];
@@ -61,7 +61,7 @@ const Portfolio = () => {
 						Sidharth
 					</h1>
 					<p className="text-xl text-zinc-300 leading-relaxed mb-12 font-light">
-						Buolding at the intersection of web3 and AI
+						Building at the intersection of web3 and AI
 					</p>
 				</header>
 

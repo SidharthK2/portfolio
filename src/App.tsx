@@ -4,7 +4,6 @@ const Portfolio = () => {
 	const proudOf = [
 		"Being a Web3 engineer",
 		"Built systems securing $1M+ TVL at IQ AI",
-		"Helped grow DeFi adoption through AI agents",
 		"Won Prize pool at ETH Global Paris",
 		"Can code smart contracts, backend APIs, and frontend (not at the same time)",
 	];

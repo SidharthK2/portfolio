@@ -51,7 +51,13 @@ const Portfolio = () => {
 				</nav>
 
 				{/* Header */}
-				<header className="mb-24">
+				<header
+					className="mb-24"
+					style={{
+						fontFamily:
+							'"SF Pro Display", -apple-system, BlinkMacSystemFont, system-ui, sans-serif',
+					}}
+				>
 					<h1 className="text-6xl font-light text-zinc-50 mb-8 tracking-tight leading-none">
 						Sidharth
 					</h1>
@@ -156,6 +162,22 @@ const Portfolio = () => {
 						>
 							<Github size={18} />
 							GitHub
+						</a>
+						<a
+							href="https://x.com/coding_sid"
+							target="_blank"
+							rel="noopener noreferrer"
+							className="flex items-center gap-3 text-zinc-400 hover:text-zinc-100 transition-all duration-300 font-light tracking-wide"
+						>
+							{/* biome-ignore lint/a11y/noSvgWithoutTitle: <explanation> */}
+							<svg
+								width="18"
+								height="18"
+								viewBox="0 0 24 24"
+								fill="currentColor"
+							>
+								<path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
+							</svg>
 						</a>
 						<a
 							href="mailto:sidharthkapoor.100@gmail.com"

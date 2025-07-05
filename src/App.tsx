@@ -1,5 +1,4 @@
-import React from "react";
-import { Github, Mail, ExternalLink, ArrowUpRight } from "lucide-react";
+import { Mail, Github } from "lucide-react";
 
 const Portfolio = () => {
 	const proudOf = [

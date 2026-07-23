@@ -1,0 +1,16 @@
+allowBuilds:
+  esbuild: true
+
+# Refuse versions published less than 3 days ago (default is 1 day)
+minimumReleaseAge: 4320
+
+# Fail install if a version's publishing provenance is weaker than a prior version
+trustPolicy: no-downgrade
+
+# Defaults in pnpm 11, pinned explicitly: block transitive deps from git/tarball
+# sources, and fail install on unreviewed build scripts
+blockExoticSubdeps: true
+strictDepBuilds: true
+
+overrides:
+  yaml: '>=2.8.3'

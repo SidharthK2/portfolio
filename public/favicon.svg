@@ -1,13 +1,13 @@
-<?xml version="1.0" encoding="iso-8859-1"?>
-<!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
-<svg height="800px" width="800px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
-	 viewBox="0 0 512 512" xml:space="preserve">
-<circle style="fill:#324A5E;" cx="256" cy="256" r="256"/>
-<path style="fill:#2B3B4E;" d="M296.388,508.818c109.035-17.282,195.15-103.395,212.43-212.432L304.93,92.498L201.076,223.453
-	l-45.022,28.898l94.098,94.098l-43.079,73.056L296.388,508.818z"/>
-<path style="fill:#FFD15D;" d="M304.93,92.498l-34.268,114.507c-3.594,12.009,3.229,24.659,15.238,28.253l61.861,18.511
-	c11.316,3.386,14.751,17.734,6.197,25.879L207.07,419.504l34.266-114.507c3.594-12.009-3.229-24.659-15.238-28.253l-61.861-18.511
-	c-11.316-3.386-14.751-17.734-6.197-25.879L304.93,92.498z"/>
-<path style="fill:#F9B54C;" d="M347.762,253.769l-61.861-18.511c-12.009-3.594-18.832-16.243-15.238-28.253l34.268-114.507
-	l-48.642,46.313v233.832l97.671-92.994C362.513,271.503,359.077,257.155,347.762,253.769z"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title">
+  <title id="title">Sidharth Kapoor</title>
+  <rect width="64" height="64" rx="16" fill="#0a0a0a"/>
+  <circle cx="32" cy="32" r="22.5" fill="none" stroke="#27272a"/>
+  <circle cx="48" cy="16" r="3.5" fill="#fcd34d"/>
+  <path
+    d="M42.5 21.5c-2.5-2.2-5.8-3.3-9.8-3.3-5.7 0-9.5 2.7-9.5 6.9 0 4.6 4.2 6.2 9.4 7.6 5.1 1.4 8.5 2.8 8.5 7.1 0 4.1-3.8 7-9.7 7-4.4 0-8.2-1.5-10.9-4.3"
+    fill="none"
+    stroke="#fafafa"
+    stroke-width="5"
+    stroke-linecap="round"
+  />
 </svg>

@@ -108,7 +108,7 @@ const Portfolio = () => {
 						<div>
 							<p className="mb-7 flex items-center gap-3 text-xs font-semibold uppercase tracking-[0.22em] text-amber-300">
 								<span className="size-1.5 rounded-full bg-amber-300 shadow-[0_0_18px_rgba(252,211,77,0.8)]" />
-								Web3 Engineer at IQ AI
+								Web3 Engineer at IQ Industries
 							</p>
 							<h1 className="max-w-4xl text-5xl font-light leading-[1.04] tracking-[-0.045em] text-zinc-50 sm:text-7xl lg:text-[5.4rem]">
 								I build smart contracts and backend infrastructure for{" "}
@@ -176,11 +176,11 @@ const Portfolio = () => {
 								<div className="flex flex-col gap-3 border-b border-white/10 pb-7 sm:flex-row sm:items-start sm:justify-between">
 									<div>
 										<a
-											href="https://iqai.com/"
+											href="https://iqindustries.com/"
 											{...externalLinkProps}
 											className="group inline-flex min-h-11 items-center gap-2 text-2xl font-medium text-zinc-50 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-amber-400"
 										>
-											IQ AI
+											IQ Industries
 											<ArrowUpRight
 												size={18}
 												aria-hidden="true"

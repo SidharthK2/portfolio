@@ -17,11 +17,4 @@ Allow: /
 User-agent: PerplexityBot
 Allow: /
 
-# These crawlers are also permitted; their purpose may include model improvement.
-User-agent: GPTBot
-Allow: /
-
-User-agent: ClaudeBot
-Allow: /
-
 Sitemap: https://www.sidk.dev/sitemap.xml

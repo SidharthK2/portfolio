@@ -142,7 +142,7 @@ const Portfolio = () => {
 								<p className="text-3xl font-light tracking-tight text-zinc-50">
 									$2M+
 								</p>
-								<p className="mt-2 text-sm leading-6 text-zinc-500">
+								<p className="mt-2 text-sm leading-6 text-zinc-400">
 									TVL across infrastructure I helped build
 								</p>
 							</div>
@@ -150,7 +150,7 @@ const Portfolio = () => {
 								<p className="text-3xl font-light tracking-tight text-zinc-50">
 									4+ years
 								</p>
-								<p className="mt-2 text-sm leading-6 text-zinc-500">
+								<p className="mt-2 text-sm leading-6 text-zinc-400">
 									building onchain systems
 								</p>
 							</div>
@@ -164,7 +164,7 @@ const Portfolio = () => {
 					>
 						<div className="grid gap-12 lg:grid-cols-[12rem_1fr] lg:gap-20">
 							<div>
-								<p className="text-xs font-semibold uppercase tracking-[0.22em] text-zinc-500">
+								<p className="text-xs font-semibold uppercase tracking-[0.22em] text-zinc-400">
 									01 / Experience
 								</p>
 								<h2 id="work-heading" className="mt-4 text-3xl font-light">
@@ -189,7 +189,7 @@ const Portfolio = () => {
 										</a>
 										<p className="mt-1 text-zinc-400">Web3 Engineer</p>
 									</div>
-									<p className="text-sm text-zinc-500">2023 — Present</p>
+									<p className="text-sm text-zinc-400">2023 — Present</p>
 								</div>
 
 								<div className="mt-8 grid gap-8 text-base font-light leading-8 text-zinc-300 sm:grid-cols-2">
@@ -241,7 +241,7 @@ const Portfolio = () => {
 						className="scroll-mt-8 border-t border-white/10 py-24"
 					>
 						<div className="mb-14 grid gap-6 lg:grid-cols-[12rem_1fr] lg:gap-20">
-							<p className="text-xs font-semibold uppercase tracking-[0.22em] text-zinc-500">
+							<p className="text-xs font-semibold uppercase tracking-[0.22em] text-zinc-400">
 								02 / Projects
 							</p>
 							<div>
@@ -264,7 +264,7 @@ const Portfolio = () => {
 									key={project.name}
 									className="grid gap-8 py-10 sm:grid-cols-[3rem_1fr] lg:grid-cols-[3rem_12rem_1fr]"
 								>
-									<p className="font-mono text-xs text-zinc-600">
+									<p className="font-mono text-xs text-zinc-400">
 										{project.number}
 									</p>
 									<div>
@@ -282,7 +282,7 @@ const Portfolio = () => {
 										<div className="mt-6 flex flex-wrap items-center gap-x-5 gap-y-3">
 											<ul
 												aria-label={`${project.name} technologies`}
-												className="flex flex-wrap gap-x-4 gap-y-2 text-xs text-zinc-500"
+												className="flex flex-wrap gap-x-4 gap-y-2 text-xs text-zinc-400"
 											>
 												{project.tags.map((tag) => (
 													<li key={tag}>{tag}</li>
@@ -348,7 +348,7 @@ const Portfolio = () => {
 					</section>
 				</main>
 
-				<footer className="flex flex-col gap-6 border-t border-white/10 py-8 text-sm text-zinc-500 sm:flex-row sm:items-center sm:justify-between">
+				<footer className="flex flex-col gap-6 border-t border-white/10 py-8 text-sm text-zinc-400 sm:flex-row sm:items-center sm:justify-between">
 					<p>© {new Date().getFullYear()} Sidharth Kapoor</p>
 					<div className="flex flex-wrap gap-2">
 						<a

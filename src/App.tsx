@@ -1,70 +1,48 @@
-import { ArrowDown, ArrowUpRight, Github, Mail } from "lucide-react";
+import { ArrowDown, ArrowUpRight, Github, Linkedin, Mail } from "lucide-react";
 
 const projects = [
 	{
 		number: "01",
-		name: "IQ Lend",
-		category: "Production DeFi",
+		name: "perp-margin-engine",
+		category: "Perpetuals protocol",
 		description:
-			"Morpho Blue-based lending markets for IQ with capped risk parameters, TWAP-backed pricing, and flash-loan leverage.",
-		tags: ["Ethereum mainnet", "Solidity", "Morpho Blue", "Fraxswap"],
+			"A minimal margin engine for collateral accounting, long/short positions, PnL, liquidations, and bad-debt handling—with fuzz and invariant coverage around the dangerous edges.",
+		tags: ["Solidity", "Foundry", "Liquidations", "Invariants"],
 		links: [
+			{
+				label: "Source",
+				href: "https://github.com/SidharthK2/perp-margin-engine",
+			},
+		],
+	},
+	{
+		number: "02",
+		name: "IQ Lend",
+		category: "Leveraged lending",
+		description:
+			"A leveraged lending prototype for IQ using Morpho Blue-style primitives, flash-loan-assisted positions, and TWAP pricing sourced from onchain Fraxswap liquidity.",
+		tags: ["Solidity", "Foundry", "Morpho Blue", "Curve", "Fraxswap"],
+		links: [
+			{
+				label: "Live demo",
+				href: "https://iq-lend-ui.vercel.app/",
+			},
 			{
 				label: "Source",
 				href: "https://github.com/SidharthK2/iq-lend",
 			},
 		],
 	},
-	{
-		number: "02",
-		name: "Polymarket Agent",
-		category: "Autonomous agents",
-		description:
-			"A multi-agent trading system that discovers prediction markets, executes CLOB orders, and tracks positions through a conversational interface.",
-		tags: ["TypeScript", "IQ AI ADK", "MCP", "Polymarket"],
-		links: [
-			{
-				label: "Source",
-				href: "https://github.com/SidharthK2/polymarket-agent",
-			},
-		],
-	},
-	{
-		number: "03",
-		name: "Popov",
-		category: "ETHGlobal Paris prize winner",
-		description:
-			"Sybil-resistant, one-person-one-vote governance for local communities, combining World ID with onchain voting.",
-		tags: ["World ID", "Solidity", "Aragon OSx", "Next.js"],
-		links: [
-			{
-				label: "Case study",
-				href: "https://ethglobal.com/showcase/popov-2b6rf",
-			},
-			{
-				label: "Source",
-				href: "https://github.com/SidharthK2/popov-front",
-			},
-		],
-	},
-	{
-		number: "04",
-		name: "Vibechex",
-		category: "Real-time systems · private build",
-		description:
-			"Multiplayer chess with peer-to-peer video and a low-latency game state pipeline.",
-		tags: ["WebSockets", "WebRTC", "Redis", "TypeScript"],
-		links: [],
-	},
 ];
 
 const capabilities = [
-	"Smart contracts",
-	"DeFi integrations",
+	"Solidity",
+	"Foundry testing",
+	"Protocol integrations",
 	"Blockchain indexers",
-	"Agent systems",
 	"Backend APIs",
-	"Product interfaces",
+	"Relayer infrastructure",
+	"Security tooling",
 ];
 
 const externalLinkProps = {
@@ -130,16 +108,16 @@ const Portfolio = () => {
 						<div>
 							<p className="mb-7 flex items-center gap-3 text-xs font-semibold uppercase tracking-[0.22em] text-amber-300">
 								<span className="size-1.5 rounded-full bg-amber-300 shadow-[0_0_18px_rgba(252,211,77,0.8)]" />
-								Web3 engineer at IQ AI
+								Web3 Engineer at IQ AI
 							</p>
 							<h1 className="max-w-4xl text-5xl font-light leading-[1.04] tracking-[-0.045em] text-zinc-50 sm:text-7xl lg:text-[5.4rem]">
-								I build DeFi infrastructure and autonomous agents for{" "}
+								I build smart contracts and backend infrastructure for{" "}
 								<span className="text-zinc-500">onchain markets.</span>
 							</h1>
 							<p className="mt-8 max-w-2xl text-lg font-light leading-8 text-zinc-400 sm:text-xl">
-								I work across smart contracts, indexers, backend systems, and
-								product surfaces—turning complex protocols into dependable
-								software.
+								4+ years building across token launches, prediction markets,
+								stablecoin infrastructure, indexers, relayers, and production
+								services around smart contracts.
 							</p>
 							<div className="mt-10 flex flex-wrap gap-4">
 								<a
@@ -150,7 +128,7 @@ const Portfolio = () => {
 									<ArrowDown size={16} aria-hidden="true" />
 								</a>
 								<a
-									href="mailto:sidharthkapoor.100@gmail.com"
+									href="mailto:sid@sidk.dev"
 									className="inline-flex min-h-12 items-center gap-2 rounded-full border border-white/15 px-6 text-sm font-medium text-zinc-300 transition-colors hover:border-white/30 hover:text-zinc-50 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-amber-400"
 								>
 									Let&apos;s talk
@@ -162,18 +140,18 @@ const Portfolio = () => {
 						<div className="mt-16 grid grid-cols-2 gap-px overflow-hidden rounded-xl border border-white/10 bg-white/10 lg:mt-0 lg:grid-cols-1">
 							<div className="bg-[#0d0d0d] p-6">
 								<p className="text-3xl font-light tracking-tight text-zinc-50">
-									$1M+
+									$2M+
 								</p>
 								<p className="mt-2 text-sm leading-6 text-zinc-500">
-									TVL supported by systems I helped build
+									TVL across infrastructure I helped build
 								</p>
 							</div>
 							<div className="bg-[#0d0d0d] p-6">
 								<p className="text-3xl font-light tracking-tight text-zinc-50">
-									ETHGlobal
+									4+ years
 								</p>
 								<p className="mt-2 text-sm leading-6 text-zinc-500">
-									Paris prize winner
+									building onchain systems
 								</p>
 							</div>
 						</div>
@@ -216,14 +194,27 @@ const Portfolio = () => {
 
 								<div className="mt-8 grid gap-8 text-base font-light leading-8 text-zinc-300 sm:grid-cols-2">
 									<p>
-										Built blockchain indexing infrastructure supporting more
-										than $1M in TVL, with a focus on correctness, reliability,
-										and observable onchain state.
+										Contributed to smart contracts and backend infrastructure
+										for IQ AI&apos;s agentic tokenization launchpad, supporting
+										$2M+ in TVL across bonding-curve launches, liquidity
+										migration, and blockchain event indexing.
 									</p>
 									<p>
-										Built autonomous agents that interact with DeFi protocols
-										including Morpho and Fraxswap, spanning contract
-										integrations, APIs, and user-facing flows.
+										Worked on white-label prediction-market infrastructure on
+										Polygon using Gnosis Conditional Tokens, oracle
+										integrations, EIP-712 signatures, gasless relayers, and
+										onchain settlement.
+									</p>
+									<p>
+										Supported testing and deployment workflows for KRWQ
+										stablecoin infrastructure, including deployment
+										verification, contract interaction testing, and release
+										checks.
+									</p>
+									<p>
+										Wrote Foundry fork, fuzz, and integration tests across
+										protocol flows, with security-focused review around
+										production deployments.
 									</p>
 								</div>
 
@@ -261,8 +252,8 @@ const Portfolio = () => {
 									Selected systems
 								</h2>
 								<p className="mt-5 max-w-2xl text-base font-light leading-7 text-zinc-400">
-									A mix of production DeFi, autonomous agents, governance,
-									and real-time software.
+									Protocol work focused on market mechanics, oracle design,
+									liquidations, and testable invariants.
 								</p>
 							</div>
 						</div>
@@ -343,7 +334,7 @@ const Portfolio = () => {
 								</p>
 							</div>
 							<a
-								href="mailto:sidharthkapoor.100@gmail.com"
+								href="mailto:sid@sidk.dev"
 								className="group inline-flex min-h-14 w-fit items-center gap-3 rounded-full bg-amber-300 px-7 font-medium text-neutral-950 transition-colors hover:bg-amber-200 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-amber-400"
 							>
 								Get in touch
@@ -369,6 +360,14 @@ const Portfolio = () => {
 							GitHub
 						</a>
 						<a
+							href="https://linkedin.com/in/sidharth"
+							{...externalLinkProps}
+							className="inline-flex min-h-11 items-center gap-2 rounded-md px-3 transition-colors hover:text-zinc-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-amber-400"
+						>
+							<Linkedin size={17} aria-hidden="true" />
+							LinkedIn
+						</a>
+						<a
 							href="https://x.com/coding_sid"
 							{...externalLinkProps}
 							className="inline-flex min-h-11 items-center gap-2 rounded-md px-3 transition-colors hover:text-zinc-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-amber-400"
@@ -385,7 +384,7 @@ const Portfolio = () => {
 							X
 						</a>
 						<a
-							href="mailto:sidharthkapoor.100@gmail.com"
+							href="mailto:sid@sidk.dev"
 							className="inline-flex min-h-11 items-center gap-2 rounded-md px-3 transition-colors hover:text-zinc-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-amber-400"
 						>
 							<Mail size={17} aria-hidden="true" />

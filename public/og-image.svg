@@ -1,0 +1,51 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <pattern id="grid" width="72" height="72" patternUnits="userSpaceOnUse">
+      <path d="M72 0H0V72" stroke="#FFFFFF" stroke-opacity="0.045"/>
+    </pattern>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(960 40) rotate(132) scale(590 560)">
+      <stop stop-color="#F59E0B" stop-opacity="0.22"/>
+      <stop offset="0.55" stop-color="#F59E0B" stop-opacity="0.045"/>
+      <stop offset="1" stop-color="#F59E0B" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="border" x1="72" y1="48" x2="1128" y2="582" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFFFF" stop-opacity="0.19"/>
+      <stop offset="0.55" stop-color="#FFFFFF" stop-opacity="0.06"/>
+      <stop offset="1" stop-color="#FBBF24" stop-opacity="0.28"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="16"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="630" fill="#0A0A0A"/>
+  <rect width="1200" height="630" fill="url(#grid)"/>
+  <rect width="1200" height="630" fill="url(#glow)"/>
+  <circle cx="1052" cy="88" r="74" fill="#F59E0B" fill-opacity="0.08" filter="url(#shadow)"/>
+
+  <rect x="48.5" y="48.5" width="1103" height="533" rx="23.5" stroke="url(#border)"/>
+
+  <circle cx="104" cy="104" r="28" fill="#F59E0B" fill-opacity="0.12" stroke="#FBBF24" stroke-opacity="0.65"/>
+  <text x="104" y="111" text-anchor="middle" fill="#FCD34D" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="600" letter-spacing="0.5">SK</text>
+  <text x="148" y="111" fill="#D4D4D8" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="500" letter-spacing="0.4">sidk.dev</text>
+
+  <circle cx="80" cy="205" r="4" fill="#FCD34D"/>
+  <text x="98" y="211" fill="#FCD34D" font-family="Inter, Arial, sans-serif" font-size="17" font-weight="600" letter-spacing="2.5">WEB3 ENGINEER AT IQ INDUSTRIES</text>
+
+  <text x="76" y="301" fill="#FAFAFA" font-family="Inter, Arial, sans-serif" font-size="68" font-weight="400" letter-spacing="-2.6">Sidharth Kapoor</text>
+  <text x="76" y="370" fill="#A1A1AA" font-family="Inter, Arial, sans-serif" font-size="35" font-weight="400" letter-spacing="-0.9">Smart contracts &amp; backend infrastructure</text>
+  <text x="76" y="416" fill="#71717A" font-family="Inter, Arial, sans-serif" font-size="35" font-weight="400" letter-spacing="-0.9">for onchain markets.</text>
+
+  <rect x="76" y="482" width="107" height="42" rx="21" fill="#FFFFFF" fill-opacity="0.045" stroke="#FFFFFF" stroke-opacity="0.11"/>
+  <text x="129.5" y="509" text-anchor="middle" fill="#D4D4D8" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="500">Solidity</text>
+  <rect x="195" y="482" width="104" height="42" rx="21" fill="#FFFFFF" fill-opacity="0.045" stroke="#FFFFFF" stroke-opacity="0.11"/>
+  <text x="247" y="509" text-anchor="middle" fill="#D4D4D8" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="500">Foundry</text>
+  <rect x="311" y="482" width="79" height="42" rx="21" fill="#FFFFFF" fill-opacity="0.045" stroke="#FFFFFF" stroke-opacity="0.11"/>
+  <text x="350.5" y="509" text-anchor="middle" fill="#D4D4D8" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="500">DeFi</text>
+  <rect x="402" y="482" width="149" height="42" rx="21" fill="#FFFFFF" fill-opacity="0.045" stroke="#FFFFFF" stroke-opacity="0.11"/>
+  <text x="476.5" y="509" text-anchor="middle" fill="#D4D4D8" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="500">Infrastructure</text>
+
+  <line x1="872" y1="476" x2="872" y2="530" stroke="#FFFFFF" stroke-opacity="0.11"/>
+  <text x="908" y="500" fill="#FAFAFA" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="500" letter-spacing="-0.5">$2M+</text>
+  <text x="908" y="526" fill="#71717A" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="500" letter-spacing="1.2">TVL SUPPORTED</text>
+</svg>

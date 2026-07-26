@@ -29,7 +29,8 @@ The static production output is written to `dist/`.
 The repository includes an explicit [`vercel.json`](./vercel.json) so Vercel uses:
 
 - the Vite framework preset;
-- `pnpm install --frozen-lockfile`;
+- an exact pnpm 11.6.0 install via `npx`, avoiding Vercel's project-age-based
+  pnpm version selection;
 - `pnpm build`;
 - the `dist/` output directory.
 

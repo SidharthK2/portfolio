@@ -53,6 +53,12 @@ const externalLinkProps = {
 const Portfolio = () => {
 	return (
 		<div className="relative min-h-screen overflow-hidden bg-[#0a0a0a] text-zinc-100">
+			<a
+				href="#top"
+				className="sr-only focus:not-sr-only focus:absolute focus:left-6 focus:top-6 focus:z-50 focus:inline-flex focus:min-h-11 focus:items-center focus:rounded-full focus:bg-amber-300 focus:px-5 focus:text-sm focus:font-medium focus:text-neutral-950"
+			>
+				Skip to content
+			</a>
 			<div
 				aria-hidden="true"
 				className="pointer-events-none fixed inset-0 opacity-40"
@@ -104,7 +110,7 @@ const Portfolio = () => {
 				</nav>
 
 				<main id="top">
-					<header className="grid min-h-[calc(100vh-6rem)] items-center py-20 lg:grid-cols-[1fr_18rem] lg:gap-20">
+					<header className="grid min-h-[calc(100svh-6rem)] items-center py-20 lg:grid-cols-[1fr_18rem] lg:gap-20">
 						<div>
 							<p className="mb-7 flex items-center gap-3 text-xs font-semibold uppercase tracking-[0.22em] text-amber-300">
 								<span className="size-1.5 rounded-full bg-amber-300 shadow-[0_0_18px_rgba(252,211,77,0.8)]" />
@@ -128,7 +134,7 @@ const Portfolio = () => {
 									<ArrowDown size={16} aria-hidden="true" />
 								</a>
 								<a
-									href="mailto:sid@sidk.dev"
+									href="mailto:sidharthkapoor.100@gmail.com"
 									className="inline-flex min-h-12 items-center gap-2 rounded-full border border-white/15 px-6 text-sm font-medium text-zinc-300 transition-colors hover:border-white/30 hover:text-zinc-50 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-amber-400"
 								>
 									Let&apos;s talk
@@ -165,7 +171,7 @@ const Portfolio = () => {
 						<div className="grid gap-12 lg:grid-cols-[12rem_1fr] lg:gap-20">
 							<div>
 								<p className="text-xs font-semibold uppercase tracking-[0.22em] text-zinc-400">
-									01 / Experience
+									Experience
 								</p>
 								<h2 id="work-heading" className="mt-4 text-3xl font-light">
 									Current work
@@ -242,7 +248,7 @@ const Portfolio = () => {
 					>
 						<div className="mb-14 grid gap-6 lg:grid-cols-[12rem_1fr] lg:gap-20">
 							<p className="text-xs font-semibold uppercase tracking-[0.22em] text-zinc-400">
-								02 / Projects
+								Projects
 							</p>
 							<div>
 								<h2
@@ -319,7 +325,7 @@ const Portfolio = () => {
 						<div className="grid gap-10 lg:grid-cols-[1fr_auto] lg:items-end">
 							<div>
 								<p className="text-xs font-semibold uppercase tracking-[0.22em] text-amber-300">
-									03 / Contact
+									Contact
 								</p>
 								<h2
 									id="contact-heading"
@@ -334,7 +340,7 @@ const Portfolio = () => {
 								</p>
 							</div>
 							<a
-								href="mailto:sid@sidk.dev"
+								href="mailto:sidharthkapoor.100@gmail.com"
 								className="group inline-flex min-h-14 w-fit items-center gap-3 rounded-full bg-amber-300 px-7 font-medium text-neutral-950 transition-colors hover:bg-amber-200 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-amber-400"
 							>
 								Get in touch
@@ -360,7 +366,7 @@ const Portfolio = () => {
 							GitHub
 						</a>
 						<a
-							href="https://linkedin.com/in/sidharth"
+							href="https://www.linkedin.com/in/sid-kapoor-web3/"
 							{...externalLinkProps}
 							className="inline-flex min-h-11 items-center gap-2 rounded-md px-3 transition-colors hover:text-zinc-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-amber-400"
 						>
@@ -384,7 +390,7 @@ const Portfolio = () => {
 							X
 						</a>
 						<a
-							href="mailto:sid@sidk.dev"
+							href="mailto:sidharthkapoor.100@gmail.com"
 							className="inline-flex min-h-11 items-center gap-2 rounded-md px-3 transition-colors hover:text-zinc-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-amber-400"
 						>
 							<Mail size={17} aria-hidden="true" />
